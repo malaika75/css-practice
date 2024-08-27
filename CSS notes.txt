@@ -1,0 +1,259 @@
+css 
+cascading style sheet
+
+syntax 
+
+selector {
+      property : value ;
+}
+
+3 tareeko se css hoti hy 
+inline styling <h1 style ="color:blue";>hello world </h1>
+<style> tag ky andar bhi likh sakty 
+or style.css ki file banaky use html se link kr ky krty hy yehi e sahi or professtional 
+tareeqa hy 
+<link rel="stylesheet" href="style.css">
+sara code css file me likhna hy koshish kry html me nhi likhna
+
+properties
+
+color ye change krta hy colors ko foreground ky or background ka jo text hota hy foreground
+text ky pechy ka hissa background 
+
+3 colors se mil kr banty hy sary colors red blue green hamy jb light ya dark ya koi or color lagana ho tu rgb(33,55,77)255 hr color
+ki full value hy pehli value red ki hy dosri green ki phir blue
+
+asan tareeqa hamy isse yaad krny ki zaroorat nhi google pr color picker pr ja kr apn marzi ka color chose kr ky uska rgb ya hex 
+value dekh sakty ky konsa color kitna dala hy desire color milny me
+
+color palette chahiye ho tu goole se color palette ly sakty jo colors combination ka batata coolers ek popular wesite hy
+
+selectors
+
+universal selecter *{} is tarah likny se puri wepsite ka color ya font jo bhi ap jahy change hota hy 
+
+id selecter hr element ko ek naam de kr us id se color add kr sakty hy #{}
+
+alag alag elements ko ek hi color dena ho tu class likh kr usko naam de dedo phir class selecter use kr sakty .{}
+
+properties
+
+text align 
+text align krna hotu right left center
+
+text decoration 
+agr text ky upar uparline ya nechy underline lagani ho tu text decoration ki property use krrty agr kesi text ko kat ky dekhana hotu 
+line-through use hota 
+
+font-weight 
+ye font ko bold or lighter krta hy normal, bolder,bold,lighter
+
+px pixels hm ye font ky size ko pixels me bara ya chota krty hy normal font 16px hota hy 
+
+line-hight
+ekline ky bad dosri line ko kitny space se print krna hy ye hum line-hight se krty hy
+
+text-transform
+isse hum text ko upper ya lower case kr sakty hy ya captilize kr kkar sakty isse shuru ka word bara ho jaye ga capitilize se 
+
+box models 
+hight
+widht
+margin bhi same hota padding ky lekin isse kehty jo do boxes ky bech ky space ko
+
+padding hota hy wo area content or border ky beach me atA HY is ko ek px value ya 4 value bhi de sakty top right bottom left
+
+border style doted , dashed, solid hum border color size or widht ye 3 chaezy hum set kr rahy hoty hy sab set kr sakty hy 
+
+display me hum inline or block me set krty hy inline matlab sirf wohi space lyga jitna text hy block pury hissy ko cover kr leta hy
+block element puri jaga lyleta hy or dosri chez agli line me ati hy inline-block hum ye bhi set kr sakty hy isse hum margin or 
+padding ko bhi set kr sakty none ka matlab hy us element ko document se hata hi dia jaye
+
+display none sahi hy agr hum koi chez khatam krna chahty hy display na ho 
+
+visibility ko hidden ye none ye thora mukhtalif hy ye gaib ho jata hy lekin uski jaga khali hojati hy space hota hy 
+
+alpha channel
+rgba rgb ki trah hy lekin ye color ko light ya dark kar sakty hy r red g green b blue a ki value akhir me aye gi 
+
+relative units
+em % rem 
+vh iska matlab hy browser ki puri height lena
+
+positions in css
+
+static hota hy by default jo pehly se hi set hota hy 
+
+position :relative me hum top right bottom left me apny elements ko kr sakty hy
+
+position : absolute 
+
+position: fixed is se hum jo bhi top right ya bottom jo bi position fix kary gy wo wahi fix ho jaye gi page ky scroll krny pr bhi
+wo wahi rahy gi is se navbar ko fix karty hy 
+
+position : sticky ye scroll ky apni position fixed kr leta hy
+
+Z index overlaping ko control krta hy konsy element upper ayengy konsy nechy 
+
+background image ky liye unplash se hum pics ly sakty hy background image ky liye hum background-size ye property use krty isky
+3 values hoti hy 
+
+cover ye pury hissy ko cover kr leti hy koi empty space nhi chorti
+
+flexbox
+
+flexible box 
+
+isme hum rows or colums me arrange krty hy 
+flex-direction is se hum row rowreverse coloum coloumreverse kr sakty hy
+
+or justify-content is ke kuch values hy 
+space around
+center
+flex-start
+flex-end
+in se hamary elemnet ko alinment diside hota hy
+
+ALIGN items 
+align content
+align-self 
+flex-grow isme wo conatiner ky hisab se element apny apko bara kr lete 
+flex-shrink or ise chota
+
+list-style-type is property se hum list tag ky 123 ya dots ko remove kr sakty hy
+
+media query
+isme hum website ko @media () responsive banaty hy ky website mobile pr khuly ya ipad pr is tareeqy se show ho ye set krty 
+isko hum min max width pr set krty hy
+
+advance level
+transitions
+kehty hy ek state dosry state me jb cheezzy element botons clicks ho rhy hoty hy unme jo changes ati hy unhy hum transitions se krty 
+hy
+
+isme hum div:hover{} kr ky likhy gy tu mouse se hover krty hoye jo changes chahiye wo hum is me likh sakty hy 
+
+isse trah hum div:active {} use kr sakty isse mouse se hold krny me click krny se changes ho gi jo apny set ki ho
+
+transition-property ye hy ky transition all ho ya kisi kisi specific chez ky liye
+
+transition-duaration is property se  transition ka time set hoga 
+
+transition-timming-function is property se hum steps me transition apply krta hy 
+
+transform hum is properperty ek value hy rotate jo hamary content ko y exies x  exies or z pr rotate krtri hy 
+
+or dosri hy scale value isse hum1 set kary gy tu one pr normal hi rahy ga 2 pr pehly se bara ho jaye ga isse hum bara ya chota bhi 
+kr sakty hy
+
+x exies horizontol hota y or y exies vertical hum chezo ko x or y exies me scale kr sakty hy matlab y jo hy wo hieght or widht me kr
+sakty hy
+
+ek transform value hy translate isse hamary element x exies or y exies me  jata hy 
+
+ek hy skew value jisse hamary element thory dono traf se khechty hy hum in values ko hover me add kr sakty hy isse acha 
+effect prta hy 
+
+animations bhi bana sakty hy hum apni css me @keyframe first animate{
+from
+to }key frame ky baad koi bhi naam likh sakty hy hum issme form or to lihty hy ky starting kaha se ho or ending kaha tak ho 
+
+animation properties
+animation-name
+animation-duration
+animation-timig-function
+animation-delay
+animation-iteration-count
+animation-direction se hum chezo ko hila sakty 
+
+
+font awesome iconscout in do websites se hum icons ly sakty hy apni web ky liye
+pehly inko apni html file se link krna hota jese css ko krty hy cdn font awesome se hum link ly sakty hy issky server ki 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

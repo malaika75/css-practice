@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: solid black;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#box1{
+    background-color: rgb(148, 42, 42);
+}
+
+#box2{
+    background-color: aqua;
+}
+
+#box3{
+    background-color: blue;
+    align-self: flex-start;
+}
+
+#box4{
+    background-color: palevioletred;
+}
+
+#box5{
+    background-color: red;
+    flex-shrink: 2;
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+    text-align: center;
+}

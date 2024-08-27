@@ -1,0 +1,37 @@
+header{
+    height: 100px;
+    background-color: black;
+    font-size: 30px;
+    color: peru;
+    text-align: bottom;
+}
+
+a{
+    margin-right:110px;
+}
+
+input{
+    color: peru;
+}
+
+button{
+    background-color: peru;
+    color: wheat;
+}
+.content{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#one{
+    height: 500px;
+}
+

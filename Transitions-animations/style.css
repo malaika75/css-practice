@@ -1,0 +1,44 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: solid 2px black;
+    background-color: aqua;
+    transition-property: all;
+    transition-duration: 2s;
+    
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transition: all 2s ease-in; 
+    animation-name: color-animate;
+    animation-duration: 3s;
+    animation-timing-function: 2;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+
+    
+}
+div:hover{
+    /* background-color: palevioletred;
+    font-size: 20px;
+    transform: scale(2);
+    transform: rotate(45deg);
+    transform: translate(50px); */
+    /* transform: skew(45deg, 30deg); */
+}
+
+div:active{
+    background-color: blue;
+}
+
+@keyframes color-animate{
+from{left :20px;
+background-color: aqua;}
+50%{transform: scale(2);}
+to{left: 200px;
+background-color: blue;}
+}
+
+

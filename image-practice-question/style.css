@@ -1,0 +1,9 @@
+div{
+    height: 400px;
+    width: 1000px;
+    background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg);
+    background-size: cover;
+    border-image: solid black;
+    
+    
+}

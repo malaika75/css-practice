@@ -1,0 +1,34 @@
+h5{
+    color:rgb(9, 182, 124)
+}
+
+button{
+    color:darkgoldenrod;
+    background-color: rgb(187, 223, 212);
+}
+
+body{
+    background-color: #79b3e2;
+}
+
+
+*{
+    font-size: large;
+}
+
+.heading2{
+    color:blue
+}
+
+#box{
+    background-color:blue;
+    color:thistle
+}
+
+.heading{
+    color:red
+}
+
+#btn{
+    color: #79b3e2;
+} 

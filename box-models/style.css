@@ -1,0 +1,56 @@
+h1{
+    color: blue;
+    height: 50px;
+    width: 200px;
+    border: solid;
+    border-color: black;
+    font-size: 40px;
+    padding: 25px;
+}
+ 
+h2{
+    height: 40px;
+    width: 200px;
+    border: dashed;
+    border-color: darkcyan;
+    text-align: center;
+    color: darkblue;
+    padding: 1px 2px 3px 4px;
+    margin-top: 20px;
+
+}
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    color: bisque;
+}
+
+div{
+    height: 60px;
+    background-color: black;
+    font-size: 20px;
+
+    
+}
+
+button{
+    background-color: peru;
+    border-color: wheat;
+}
+
+a{
+    margin-right: 200px;
+}
+
+input{
+    color: #000;
+}

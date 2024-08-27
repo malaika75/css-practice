@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid brown;
+    display: inline-block;
+}
+
+#first{
+    background-color: aliceblue;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrBwARZpC1OVgQCHh9JbNmL52o4rWFjVwlEw&s);
+    background-size: cover;
+
+}
+
+#second{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/bright-forget-me-nots-royalty-free-image-1677788394.jpg);
+    background-size: cover;
+}
+
+#three{
+    background-image: url(https://thumbs.dreamstime.com/b/patriotic-bouquet-red-white-blue-flowers-vase-standing-wooden-table-home-independence-day-july-th-dining-decoration-323690640.jpg);
+    background-size: contain;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_188544-8593.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722902400&semt=sph);
+    background-size: cover;
+}

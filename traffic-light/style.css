@@ -1,0 +1,33 @@
+#three{
+    height: 100px;
+    background-color: green;
+    width: 100px;
+    border-radius: 60px;
+    border: solid;
+    border-color: rgb(40, 209, 77);
+}
+
+#one{
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    background-color: rgb(241, 255, 41);
+    border: solid;
+    border-color: rgb(219, 219, 95);
+}
+
+#two{
+    height: 100px;
+    background-color: red;
+    width: 100px;
+    border-radius: 60px;
+    border: solid;
+    border-color:rgb(207, 24, 24);
+}
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: brown;
+    display: inline;
+}
+
